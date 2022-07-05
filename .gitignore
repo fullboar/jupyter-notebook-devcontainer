@@ -2,3 +2,7 @@
 data/
 postgres-data/*
 !postgres-data/.gitkeep
+*.zip
+*.tar.gz
+*.tgz
+*.rar
