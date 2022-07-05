@@ -1,0 +1,8 @@
+pytest
+pandas
+numpy
+ipykernel
+ipython-sql
+python-dotenv
+psycopg2
+sqlalchemy
