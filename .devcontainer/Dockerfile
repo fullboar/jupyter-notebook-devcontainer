@@ -22,13 +22,14 @@ RUN /opt/conda/bin/python3 \
   -m pip \
   --disable-pip-version-check \
   --no-cache-dir install \
-  -r /tmp/pip-tmp/requirements.txt \
-  && rm -rf /tmp/pip-tmp
+  -r /tmp/pip-tmp/requirements.txt && \
+  rm -rf /tmp/pip-tmp
 
 RUN conda install \
   -n base ipykernel \
   --update-deps \
-  --force-reinstall
+  --force-reinstall && \
+  conda init zsh
 
 RUN tar -zxf /tmp/oc-49-linux-x86_64.tar.gz \
   -C /usr/bin/ && \
