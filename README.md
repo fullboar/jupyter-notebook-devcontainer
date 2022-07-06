@@ -18,4 +18,4 @@ Finally, when rebuilding the container the [Dockerfile](./devcontainer/Dockerfil
 
 # LICENSE
 
-The [Miniconda](https://docs.conda.io/en/latest/miniconda.html) base images which is a minimial distribution of [Anaconda](https://www.anaconda.com/] has licencing requirements outside of the free tier for students, academics, and hobbyists. You may be covered if run within GitHub [CodeSpaces](https://github.com/features/codespaces) but do your due-diligance with respect to licencing.
+The licence for [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (a minimial distribution of [Anaconda](https://www.anaconda.com/)) which is the base images for this `devcontainer` can be found [here](https://www.anaconda.com/end-user-license-agreement-miniconda).
